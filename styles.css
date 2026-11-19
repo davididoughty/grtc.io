@@ -223,3 +223,9 @@ footer.site-footer{display:block;background:var(--pale);color:var(--muted);font-
   .card,.tile,.gold-panel,.wizard{border-width:1px}
 }
 @media (prefers-reduced-motion:reduce){.js .site-header .nav,.js .nav-toggle span{transition:none}}
+
+/* Logo mark */
+.brand img{width:34px;height:auto;flex:none}
+.footer-brand img{width:26px;height:auto}
+.founder-logo{display:block;width:120px;height:auto;margin:0 auto 24px}
+@media (max-width:640px){.brand img{width:30px}.founder-logo{width:96px}}
