@@ -33,3 +33,11 @@ This is a complete GitHub-ready upload package, **not** a repository push. GitHu
 Open `index.html` in the downloaded folder to see the complete site. The separate single-file HTML preview provided alongside this ZIP embeds every page and routes internal links without a server.
 
 The supplied founder portrait is included in `assets/founder.jpg` and displayed on About.
+
+## V4 redesign (Apple clarity × engineered system)
+- Shared design layer appended to `styles.css` (V4 section); earlier layers left intact underneath.
+- `site.js` adds the mobile hamburger menu (≤900px): full-screen panel, focus moves into the menu, Tab is trapped, Escape/links close it, `inert` hides it from screen readers when closed. Without JavaScript the original inline nav still shows.
+- Standard header (with `aria-current`), skip link and footer on every page; one Facebook URL site-wide; footer links to every service and the founder page.
+- Service pages have previous/next service links.
+- Hero artwork unchanged; `assets/hero-800.webp` and `assets/hero-1670.webp` (38 KB / 106 KB) are served to supporting browsers, `hero.png` remains the fallback.
+- Every page has a unique meta description, canonical URL and Open Graph tags.
