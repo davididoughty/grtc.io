@@ -311,3 +311,7 @@ details.faq p{margin:10px 0 0;color:var(--muted)}
 .sooner{font-size:.86rem;margin-top:10px;padding-top:12px;border-top:1px solid #e9ddc5}
 .sidecar-book{margin-top:14px;font-size:.92rem}
 .sidecar-book a{color:var(--forest);font-weight:600}
+
+/* PR10 */
+.service-area{font-size:.82rem;opacity:.8;margin-top:8px;max-width:34ch}
+.hero-eyebrow{margin-bottom:10px}
