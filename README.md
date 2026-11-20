@@ -6,13 +6,13 @@
 - `advising.html`, `connected-spaces.html`, `readiness.html`, `digital-presence.html`, `simplification.html`: individual service detail pages
 - `about.html`: collective-first About, founder professional history, factual text-only employer names
 - `approach.html`: Explore / Expand / Partner
-- `contact.html`: direct email and website form
+- `contact.html`: direct email (mailto) plus a link to the guided conversation
 - `conversation.html`: guided six-step questionnaire, editable generated message, two delivery methods
 - `privacy.html`: starter privacy disclosure
 
 ## Launch checklist
-1. **Set up a Formspree form** and verify its recipient inbox `david@grtc.io`. Paste its endpoint into `config.js`. Both website-based forms will remain disabled until configured. Verify current Formspree plan limits, anti-spam options and privacy terms. No secret API keys should appear in static files.
-2. Test direct form submission, guided form submission and the email-app route on desktop and mobile. `mailto:` depends on visitor email software.
+1. Contact is email-only: the guided conversation assembles a message and opens it in the visitor's own email app, Gmail or Outlook.com, addressed to `recipientEmail` in `config.js`. No form service is used.
+2. Test the email-app, Gmail, Outlook.com and Copy routes on desktop and mobile.
 3. Add your approved LinkedIn portrait as a local file and update the About page placeholder. Do not hotlink a LinkedIn image.
 4. Review employment titles, program scale and corporate descriptions for accuracy. Former employers are text-only factual references to the founder's past roles; no endorsement is claimed. Do not add corporate logos or proprietary screenshots without authorization.
 5. The original hero asset has embedded text/navigation. Consider supplying a clean background export before publication to avoid duplicated text and improve mobile legibility.
@@ -21,7 +21,7 @@
 8. Configure a custom domain separately when ready; follow GitHub's DNS and HTTPS guidance.
 
 ## Notes
-The guided questionnaire does not store answers locally or transmit them until the visitor chooses a delivery action. Website-based delivery uses a third-party form endpoint. Copy and email-app options are also provided.
+The guided questionnaire does not store answers locally or transmit them until the visitor chooses a delivery action. Delivery is always from the visitor's own email.
 
 ## Collective philosophy update
 The About page explains the nautilus/golden ratio as proportional growth, how a focused consultancy coordinates vendors and specialists, and how enterprise discipline becomes measurable roadmaps for nontechnical clients. Vendor relationships and external specialists are not presented as formal partnerships.

@@ -1,5 +1,4 @@
-// Public website configuration. Do not put private API keys here.
+// Public website configuration. Do not put private keys here.
 window.GRTC_CONFIG = {
-  recipientEmail: "david@grtc.io",
-  formEndpoint: "" // Insert your verified Formspree URL, e.g. https://formspree.io/f/XXXXXXXX
+  recipientEmail: "david@grtc.io"
 };
